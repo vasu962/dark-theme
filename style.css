@@ -2,22 +2,21 @@
   margin: 0;
   padding: 0;
 }
-:root{
-    --primary-color: #edf2fc;
-    --secondary-color: #212121;
-    
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
 }
-.dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #fff;
 }
-#icon{
-    width: 30px;
-    cursor: pointer;
+#icon {
+  width: 30px;
+  cursor: pointer;
 }
-nav ul{
-    flex: 1;
-    text-align: right;
+nav ul {
+  flex: 1;
+  text-align: right;
 }
 .hero {
   height: 100vh;
@@ -82,7 +81,7 @@ span {
 }
 
 .img-box {
-  width: 45%;
+  width: 60%;
   height: 80%;
   position: absolute;
   bottom: 0;
@@ -112,5 +111,5 @@ span {
   margin-right: 20px;
 }
 .social-links a:hover {
-    color: #ff4321;
+  color: #ff4321;
 }
